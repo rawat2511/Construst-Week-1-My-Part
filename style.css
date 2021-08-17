@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dot {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #1dbf73;
+}
+.header {
+    background-color: #ab405b;
+    color: white;
+}
+.nav {
+    height: 80px;
+}
+ul{
+    list-style-type: none;
+    box-sizing: border-box;
+    color: white;
+}
+.nav li{
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 30px;
+}
+#logo {
+    float: left;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0px 0px 0px 45px;
+}
+.footer-top {
+    display: flex;
+    flex-direction: row;
+}
+.footer-top .list {
+    flex-grow: 1;
+    padding: 30px;
+    margin: 20px;
+}
+.footer-top li {
+    color: rgb(138, 133, 133);
+    padding-top: 20px;
+}
+.list > ul > .first-item {
+    color: black;
+    font-weight: bold;
+}
+.list > ul > .sub-item {
+    color: rgb(192, 185, 185);
+    font-size: 14px;
+    padding-top: 4px;
+}
+.desc {
+    width: 600px;
+}
+.desc > h1, .get-started > h1 {
+    font-size: 48px;
+}
+.list-bottom > li {
+    color: black;
+    float: right;
+    padding: 20px 10px 30px;
+}
+.list-bottom > li:first-child {
+    float: left;
+}
+.list-bottom > li:nth-child(2) {
+    float: left;
+}
+.get-started {
+    background-color: #4d1324;
+    margin: 40px;
+    border-radius: 5px;
+    padding: 50px 0px 50px 35px;
+}
+.get-started > h1{
+    width: 630px;
+    color: white;
+}
+.get-started > button {
+    background-color: #1dbf73;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 128px;
+    border-radius: 6px;
+    border-color: white;
+    margin-top: 34px;
+}
+.trust > ul {
+    display: flex;
+    flex-direction: row;
+}
+.trust > ul > li {
+    color: rgb(199, 195, 195);
+    margin: 20px;
+    font-weight: bold;
+}
+.trust > ul > li:first-child, .trust > ul > li:nth-child(6) {
+    flex-grow: 1;
+}
+.trust > ul >li:first-child {
+    text-align: right;
+    padding-top: 20px;
+}
+.popular > ul > li > a{
+    display: inline-flex;
+    flex-direction: row;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px 10px;
+    color: white;
+}
+.popular > ul > li {
+    display: inline-block;
+}
+.popular {
+    text-orientation: ;
+}
+.popular{
+    display: flex;
+}
