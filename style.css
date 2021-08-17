@@ -164,3 +164,33 @@ ul{
 .clear {
     clear: both;
 }
+.fiverr-business {
+    background-color: #0d084d;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 1fr;
+    gap: 50px;
+    padding: 80px 20px 80px 20px;
+}
+.fiverr-business > .f-biz-cont {
+    grid-area: 1 / 1 / span 1 / span 5;
+}
+.fiverr-business img {
+    height: 80%;
+}
+.fiverr-business > .f-biz-image {
+    grid-area: 1 / 6 / span 1 / span 7;
+}
+h1 > span {
+    font-weight: 900;
+}
+.new {
+    color: white;
+    background-color: #584aff;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+}
