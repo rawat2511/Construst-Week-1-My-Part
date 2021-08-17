@@ -3,6 +3,10 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.curl {
+    font-family: 'Cedarville Cursive';
+    font-style: italic;
+}
 .dot {
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
@@ -11,6 +15,8 @@
 .header {
     background-color: #ab405b;
     color: white;
+    padding-bottom: 200px;
+    size: 500px;
 }
 .nav {
     height: 80px;
@@ -56,6 +62,7 @@ ul{
 }
 .desc {
     width: 600px;
+    padding-top: 120px;
 }
 .desc > h1, .get-started > h1 {
     font-size: 48px;
@@ -72,14 +79,17 @@ ul{
     float: left;
 }
 .get-started {
-    background-color: #4d1324;
+    background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
     margin: 40px;
     border-radius: 5px;
     padding: 50px 0px 50px 35px;
+    height: 330px;
 }
 .get-started > h1{
     width: 630px;
     color: white;
+    padding-top: 76px;
+    padding-left: 70px;
 }
 .get-started > button {
     background-color: #1dbf73;
@@ -90,6 +100,7 @@ ul{
     border-radius: 6px;
     border-color: white;
     margin-top: 34px;
+    margin-left: 70px;
 }
 .trust > ul {
     display: flex;
@@ -110,17 +121,46 @@ ul{
 .popular > ul > li > a{
     display: inline-flex;
     flex-direction: row;
-    border: 2px solid white;
-    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 18px;
     padding: 4px 10px;
     color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 .popular > ul > li {
     display: inline-block;
+    padding-right: 8px;
 }
-.popular {
-    text-orientation: ;
-}
-.popular{
+.popular > ul{
     display: flex;
+    padding-top: 20px;
+}
+.desc {
+    padding-left: 34px;
+}
+.desc > input {
+    height: 42px;
+    width: 500px;
+    border: 2px solid white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: white;
+    float: left;
+    margin-top: 26px;
+}
+.desc > button {
+    height: 46px;
+    width: 90px;
+    font-size: 18px;
+    background-color: #1dbf73;
+    color: white;
+    border: 2px solid #1dbf73;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    float: left;
+    margin-top: 26px;
+}
+.clear {
+    clear: both;
 }
