@@ -21,6 +21,17 @@
 .nav {
     height: 80px;
 }
+.nav > ul > li > button {
+    background-color: #ab405b;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    width: 76px;
+
+}
 ul{
     list-style-type: none;
     box-sizing: border-box;
@@ -194,3 +205,29 @@ h1 > span {
     border-radius: 12px;
     margin-bottom: 6px;
 }
+
+/* Explor the MarketPlace */
+
+.trust + h1 {
+    padding-left: 34px;
+}
+.explore {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 80px;
+}
+.ex {
+    text-align: center;
+    padding: 30px;
+}
+.ex > img {
+    height: 48px;
+    border-bottom: 2px solid rgb(184, 180, 180);
+    padding-bottom: 4px;
+}
+.ex > p {
+    padding-top: 6px;
+    color: rgb(65, 64, 64);
+}
+
