@@ -4,6 +4,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://i.dlpng.com/static/png/6952373_preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="header">
@@ -51,6 +52,18 @@
         </ul>
     </div>
 
+    <h1>Popular professional services</h1>
+    <div class="services">
+        <button><i class="fa fa-linkedin"></i></button>
+        <div class="serices-slides">
+            <div>
+                <p>Build your brand</p>
+                <h1>Logo Design</h1>
+            </div>
+        </div>
+        <button><i class="fa fa-pinterest"></i></button>
+    </div>
+
     <h1>Explore the Marketplace</h1>
     <div class="explore">
         <div class="ex ex-1">
@@ -62,12 +75,17 @@
             <p>Digital Marketing</p>
         </div>
         <div class="ex ex-3">
-            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg" alt="writing and Translations">
-            <p>Writing & Translations</p>
+            <a href="writing.html">
+
+                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg" alt="writing and Translations">
+                <p>Writing & Translations</p>
+            </a>
         </div>
         <div class="ex ex-4">
-            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg" alt="video Animations">
-            <p>Video & Animations</p>
+            <a href="video.html">
+                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg" alt="video Animations">
+                <p>Video & Animations</p>
+            </a>
         </div>
         <div class="ex ex-5">
             <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/music-audio.320af20.svg" alt="music and audio">
@@ -95,18 +113,46 @@
     <div class="fiverr-business">
         <div class="f-biz-cont">
             <h1><span>fiverr</span> business <span class="new">NEW</span></h1>
-            <h1>A business solution designed for teams</h1>
+            <h1>A business solution designed for <span class="curl">teams</span></h1>
             <p>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</p>
             <ul>
-                <li>Connect to freelancers with proven business experience</li>
-                <li>Get matched with the perfect talent by a customer success manager</li>
-                <li>Manage teamwork and boost productivity with one powerful workspace</li>
+                <li><i class="fa fa-check"></i> Connect to freelancers with proven business experience</li>
+                <li><i class="fa fa-check"></i>Get matched with the perfect talent by a customer success manager</li>
+                <li><i class="fa fa-check"></i>Manage teamwork and boost productivity with one powerful workspace</li>
             </ul>
         </div>
         <div class="f-biz-image">
             <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624757/business-desktop-870-x1.png" alt="">
         </div>
     </div>
+
+
+    <div class="fiverr-guides">
+        <h1>Fiverr Guides</h1>
+        <a href="#">See More Guides ></a>
+        <div class="clear"></div>
+        <div class="guides">
+            <div class="guide guide-1">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/d532c0ad4feed007b3899cebad595286-1599611560157/guide-start-online-business-552-x2.png" alt="">
+                <p>Start an online business and work from home</p>
+                <p>A complete guide to starting a small business online</p>
+            </div>
+            <div class="guide guide-2">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/d532c0ad4feed007b3899cebad595286-1599611560168/guide-digital-marketing-552-x2.png" alt="">
+                <p>Digital marketing made easy</p>
+                <p>A practical guide to understand what is digital marketing</p>  
+            </div>
+            <div class="guide guide-3">
+                <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_450,dpr_1.0/v1/attachments/generic_asset/asset/d532c0ad4feed007b3899cebad595286-1599611560155/guide-create-a-logo-552-x2.png" alt="">
+                <p>Create a logo for your business</p>
+                <p>A step-by-step guide to create a memorable business logo</p>
+            </div>
+                    
+        </div>
+    </div>
+
+
+
     <div class="get-started">
         <h1 class="heading">Find the <span class="curl">talent</span> needed to get your business <span class="curl">growing</span>.</h1>
         <button>Get Started</button>
@@ -185,15 +231,16 @@
 
         <div class="footer-bottom">
             <ul class="list-bottom">
-                <li>fiverr</li>
+                <li>fiverr<span class="reg">&reg;</span></li>
                 <li>&copy;Fiverr International Ltd. 2021</li>
-                <li>Twitter</li>
-                <li>facebook</li>
-                <li>linked in</li>
-                <li>instagram</li>
-                <li>English</li>
-                <li>INR</li>
-                <li>Body</li>
+                <li><i class="fa fa-user"></i></li>
+                <li class="inr-line"><i class="fa fa-inr"></i>INR</li>
+                <li class="eng-line"><i class="fa fa-globe"></i>English</li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-pinterest"></i></li>
+                <li><i class="fa fa-linkedin"></i></li>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
             </ul>
         </div>
     </div>
